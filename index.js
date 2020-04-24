@@ -35,6 +35,11 @@ const vertexPositions = [
   -0.7, 0.1,
   -0.2, 0.3,
 
+  //duplico los vertices del centro
+  0.2,0.3,
+  -0.2,0.3,
+  0.0,-0.3,
+
 ]
 
 /*Los vertices exteriores de mi estrella son
@@ -60,7 +65,8 @@ const indices = [
   //septimo
   5,9,7,
   //octavo
-  9,1,5,
+  //9,1,5,
+  10,11,12,
 ]
 
 //vertices exteriores son 0,2,4,7,9
@@ -77,6 +83,10 @@ const vertexColors = [
   1, 1, 0,    //8
   1, 0, 0,
 
+  //los tres nuevos del medio
+  0,0,1,
+  0,0,1,
+  0,0,1,
 ]
 
 
