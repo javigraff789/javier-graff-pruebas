@@ -24,7 +24,6 @@ const vertexColorLocation = gl.getAttribLocation(program, 'vertexColor')
 
 const vertexPositions = [
   
-  
   0.0, 0.8, // 0 👈 indice de cada posición
   0.2, 0.3,  // 1
   0.7, 0.1,   // 2
@@ -41,6 +40,9 @@ const vertexPositions = [
 /*Los vertices exteriores de mi estrella son
 0,2,4,6,7,9
 les doy un*/
+
+//voy a cambiar el color de la parte de arriba para eso tengo
+//que duplicar los vertices 1 y 9.
 
 const indices = [
   // primer triangulo
@@ -74,7 +76,7 @@ const vertexColors = [
   1, 0, 0,
   1, 1, 0,    //8
   1, 0, 0,
-  
+
 ]
 
 
